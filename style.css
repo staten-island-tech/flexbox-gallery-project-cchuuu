@@ -29,7 +29,12 @@ body {
     align-items: center;
 }
 
+.image:hover {
+
+}
+
 .text {
+    font-size: 40px;
     
 }
 
