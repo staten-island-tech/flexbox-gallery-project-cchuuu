@@ -22,15 +22,10 @@ body {
     justify-content: space-evenly;
     box-shadow: 3px 3px 5px 4px black;
 }
-.image
- {
+.image {
     width: 80%;
     height: 60%;
     align-items: center;
-}
-
-.image:hover {
-
 }
 
 .text {
@@ -45,3 +40,29 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.image:hover {
+    transform: scale(1.1);
+    transition: 10s;
+
+}
+
+.card:hover {
+    transform: scale(1.1) translateY(-10px);
+    transition: 1s;
+}
+
+h1:hover {
+    transform: rotate(1turn);
+    transition: 10s;
+    animation: animate__bounce
+
+}
+
+h2:hover {
+    transform: skew(10deg, 20deg);
+    transition: 5s;
+}
+
+
+
