@@ -96,13 +96,6 @@ h2:hover {
     transition: 5s;
 }
 
-
-
-@keyframes shake {
-    
-}
-
-
 @media screen and (max-width: 1100px) {
     .container {
         flex-direction: row;
