@@ -68,9 +68,7 @@ body {
 }
 
 .image3:hover {
-    animation: jumping 3s;
-
-    animation-iteration-count: infinite;
+    animation: jumping 3s infinite;
 }
 
 @keyframes jumping {
