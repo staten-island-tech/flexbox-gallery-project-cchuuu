@@ -15,7 +15,7 @@ body {
     width: 20%;
     height: 30rem;
     background: lightblue;
-    border-radius: 10%;
+    border-radius: 3rem;
     display: flex;
     margin: 2rem;
     border: 2px solid black;
@@ -57,7 +57,7 @@ body {
 
 .image3:hover {
     animation: jumping 3s ease;
-    animation-iteration-count: 5;
+    animation-iteration-count: 1;
 }
 
 @keyframes jumping {
